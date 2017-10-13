@@ -1,13 +1,13 @@
 <?php
 require('dbinfo.php');
 
-$db_info = returnInfo('local');
+$db_info = returnInfo();
 
 $conn = "mysql:host=" . $db_info['servername'] . ";dbname=" . $db_info['dbname'] . ";charset=" . $db_info['charset'];
 
 // try connectng
 try {
-    $this->connection = new PDO($conn, $db_info['username'], $db_info['password']);
+    $pdo = new PDO($conn, $db_info['username'], $db_info['password']);
 } catch (PDOException $e) {
     exit('Connection failed: ' . $e->getMessage());
 }
