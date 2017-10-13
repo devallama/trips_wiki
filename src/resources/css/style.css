@@ -1,0 +1,205 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif; }
+
+h1 {
+  margin: 0 0 5px 0; }
+
+h3 {
+  margin: 0 0 5px 0; }
+
+a {
+  color: red;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+.capitalize {
+  text-transform: capitalize; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.overflow {
+  overflow: auto; }
+
+.required {
+  font-size: 12px;
+  color: #ff5656; }
+
+.error {
+  background-color: #ff5656;
+  color: #fff;
+  width: 40%;
+  text-align: center;
+  margin: 10px auto;
+  padding: 5px 0;
+  border-radius: 4px; }
+
+.msg {
+  background-color: #3dff9a;
+  color: #3a3a3a;
+  width: 40%;
+  text-align: center;
+  margin: 10px auto;
+  padding: 5px 0;
+  border-radius: 4px; }
+
+header {
+  background-color: #1090a3;
+  padding: 10px 40px;
+  color: #bcbcbc; }
+  header #title {
+    font-size: 24px; }
+  header #user {
+    margin-top: 5px; }
+  header a {
+    color: white; }
+
+form {
+  width: 40%; }
+  form input {
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 18px;
+    margin: 10px 0; }
+  form input[type="submit"] {
+    width: 40%;
+    margin: 30px auto;
+    background-color: #2460c1;
+    border: none;
+    color: #fff; }
+  form textarea {
+    display: block;
+    resize: none;
+    width: 100%;
+    height: 200px;
+    padding: 5px 10px;
+    margin: 10px 0; }
+  form select {
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 18px;
+    margin: 10px 0; }
+  form label {
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 18px;
+    margin: 10px 0; }
+  form a {
+    display: block;
+    text-align: center; }
+
+#search_form {
+  width: 100%; }
+  #search_form input {
+    font-size: 20px; }
+  #search_form input[type='text'] {
+    text-align: center;
+    padding: 5px 20px;
+    width: 40%;
+    font-weight: 300;
+    margin: 15px auto; }
+  #search_form input[type='submit'] {
+    padding: 5px 30px;
+    font-weight: 300;
+    color: #fff;
+    width: 150px; }
+
+#review_form a {
+  display: inline; }
+
+main {
+  width: 80%;
+  min-width: 960px;
+  margin: 10px auto; }
+
+#home {
+  text-align: center; }
+
+#results {
+  display: block;
+  width: 80%;
+  margin: 0 auto; }
+  #results .search_result {
+    color: #1791d8;
+    display: block;
+    padding: 20px 10px; }
+    #results .search_result .info {
+      overflow: auto; }
+      #results .search_result .info div {
+        display: inline-block; }
+      #results .search_result .info .name {
+        font-size: 20px;
+        font-weight: 700;
+        padding-right: 20px; }
+      #results .search_result .info .right div {
+        padding: 0 20px;
+        text-align: center; }
+    #results .search_result:nth-child(2n) {
+      background-color: #c6e0ef; }
+
+#place .error {
+  margin: 15px 0;
+  display: none; }
+#place .place_info .top {
+  overflow: auto; }
+#place .place_info .description {
+  padding: 20px 30px;
+  font-size: 18px;
+  max-width: 60%;
+  min-width: 600px; }
+#place .ratingstar {
+  width: 32px;
+  cursor: pointer; }
+#place #reviews .review {
+  margin: 10px 0;
+  padding: 5px 10px;
+  max-width: 40%;
+  min-width: 400px; }
+  #place #reviews .review .author {
+    font-size: 14px;
+    color: #aaaaaa; }
+  #place #reviews .review .content {
+    padding: 5px 5px; }
+  #place #reviews .review .date {
+    font-size: 14px; }
+
+#admin table {
+  width: 100%;
+  table-layout: fixed; }
+  #admin table tr td {
+    width: 100px;
+    text-align: center;
+    padding: 10px 10px; }
+
+#login form {
+  width: 40%; }
+  #login form input {
+    width: 90%; }
+  #login form label {
+    width: 90%; }
+  #login form input[type="submit"] {
+    width: 200px;
+    margin: 20px auto; }
+
+footer {
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 50px 60px;
+  margin-top: 100px; }
+  footer a {
+    color: #fff;
+    text-decoration: underline; }
+    footer a:hover {
+      color: #d1d1d1; }
+
+/*# sourceMappingURL=style.css.map */
